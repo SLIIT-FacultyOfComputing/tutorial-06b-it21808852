@@ -1,9 +1,16 @@
+#pragma once
 class Student {
-  // private section
-  //    int studentId
-  //    name <- 20 charcters
-  
-  // public section
-  //    assignDetails() method declaration
-  //    display() method declaration
+private: // private section
+	int studentId;// int studentId
+	char name[20];// name <- 20 charcters
+public:// public section
+	void assignDetails(int id,char stuName[]);// assignDetails() method declaration
+	void display();//    display() method declaration 
 };
+
+
+
+
+
+
+
